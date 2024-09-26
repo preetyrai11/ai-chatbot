@@ -4,80 +4,119 @@
       "tag": "greeting",
       "patterns": [
         "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good morning",
+        "Good afternoon",
+        "Hey there"
       ],
       "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hello! How can I assist you with your financial needs today?",
+        "Hi! What can I help you with?",
+        "Welcome! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": [
+        "What is my account balance?",
+        "Check my balance",
+        "How much money do I have?",
+        "Can you tell me my balance?"
+      ],
+      "responses": [
+        "Sure, please provide your account number to check your balance.",
+        "I can help with that. What’s your account number?"
+      ]
+    },
+    {
+      "tag": "account_statement",
+      "patterns": [
+        "I need my account statement",
+        "Can I get a statement of my account?",
+        "Show me my last statement",
+        "Generate my account statement"
+      ],
+      "responses": [
+        "I can generate your account statement. Please provide your account number and the date range."
+      ]
+    },
+    {
+      "tag": "loan_options",
+      "patterns": [
+        "What loan options do you offer?",
+        "Tell me about loans",
+        "Do you offer personal loans?",
+        "Can I get a home loan?"
+      ],
+      "responses": [
+        "We offer various loan options such as personal loans, home loans, and car loans. Would you like more details?",
+        "Sure! We have personal, home, and auto loans. What are you interested in?"
+      ]
+    },
+    {
+      "tag": "credit_card_application",
+      "patterns": [
+        "How can I apply for a credit card?",
+        "I want a credit card",
+        "Can I apply for a credit card?",
+        "What is the process to get a credit card?"
+      ],
+      "responses": [
+        "You can apply for a credit card through our online portal. Would you like the link?",
+        "To apply for a credit card, I’ll need some details. Shall we start?"
+      ]
+    },
+    {
+      "tag": "investment_options",
+      "patterns": [
+        "What investment options do you have?",
+        "How can I invest with your bank?",
+        "Tell me about your investment plans",
+        "Do you offer mutual funds?"
+      ],
+      "responses": [
+        "We offer mutual funds, fixed deposits, and stock market investments. What would you like to know more about?",
+        "Yes, we provide multiple investment plans like mutual funds, fixed deposits, and more."
+      ]
+    },
+    {
+      "tag": "fraud_report",
+      "patterns": [
+        "I think there’s a fraudulent transaction",
+        "How do I report a fraud?",
+        "I need to report a fraud on my account",
+        "There’s a suspicious transaction"
+      ],
+      "responses": [
+        "I’m sorry to hear that. Please provide the transaction details so I can help you report it.",
+        "Let’s take care of that. Could you provide your account details and the suspicious transaction?"
+      ]
+    },
+    {
+      "tag": "loan_payment",
+      "patterns": [
+        "How do I make a loan payment?",
+        "Can I pay my loan online?",
+        "What are the loan repayment options?",
+        "I want to make a loan payment"
+      ],
+      "responses": [
+        "You can make loan payments online or at any of our branches. Would you like to know more about the online payment process?",
+        "Sure, you can pay your loan through online banking, mobile app, or at our branches."
       ]
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks, bye"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Goodbye! Have a great day.",
+        "Thank you for using our service. See you next time!",
+        "Take care! We hope to see you again soon."
       ]
     }
   ]
